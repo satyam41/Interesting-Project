@@ -1,0 +1,10 @@
+Create The predict() Function
+Next, you need to create a function called predict() which should return -
+
+ROCK (or 0), if the value of the count_rock variable is greater than the values of the count_paper and count_scissors variables.
+
+PAPER (or 1), if the value of the count_paper variable is greater than the values of the count_rock and count_scissors variables.
+
+SCISSORS (or 2), if the value of the count_scissors variable is greater than the values of the count_rock and count_paper variables.
+
+Use the and keyword to check two conditions simultaneously. For example, the code below should return True because 5 is less than 8 and 5 is less than 10.
