@@ -1,0 +1,23 @@
+Gameplay
+Now, it is time to run the game.
+
+Create a list: ['0', '1', '2'] and store it in the variable called valid_entries, i.e, valid_entries = ['0', '1', '2'].
+
+Create an infinite while loop. Inside the loop, create a variable called user_input to store the input taken by the player.
+
+Use the input() function to take input from a player. Inside the input() function, write the Enter 0 for ROCK, 1 for PAPER and 2 for SCISSORS:
+statement to show it as a message to a player.
+
+Write another while loop to check whether the input provided by a player exists in the valid_entries list or not.
+
+If the input provided by a player does not exist in the valid_entries list, then print Invalid Input! message. In the next line, rewrite the 
+user_input = input("Enter 0 for ROCK, 1 for PAPER and 2 for SCISSORS: ") statement.
+
+Now, outside the inner while loop, convert the user_input value to an integer value using the int() function.
+
+Call the update_scores() function with the user_input as an input to update the scores of the computer and the player.
+
+Call the update_counts() function with the user_input as an input to update the counts of the inputs provided by the player.
+
+Write an if statement to check if the score is 10 for any of the player. If the comp_score == 10, then print the Computer Won! message and break the loop.
+Else if the player_score == 10, then print the You won! message and break the loop.
