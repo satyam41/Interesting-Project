@@ -1,0 +1,13 @@
+Create a function to calculate minimum number of steps required to move the all the disks from first tower to third tower.
+
+Hint: The minimum number of steps required to move the disks is equal to  2n−1  where  n  is the number of disks and  2  is the number of towers the disks needs to be shifted.
+
+Example: Minimum number of steps required to shift 5 disks is 31
+
+Follow the steps given below to achieve the desired result:
+
+Step 1: Create a function (let's say tower_hanoi()) that takes an integer disks as a parameter and returns the minimum amount of steps needed to complete the game.
+
+Step 2: Use  2n−1  to return the result
+
+Step 3: Call the function and check the result
