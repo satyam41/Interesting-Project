@@ -1,0 +1,21 @@
+The Algorithm
+
+In the algorithm, the computer should keep a count of player moves (i.e., the counts for 0, 1 and 2) in three separate variables - count_rock, count_paper and count_scissors. 
+The algorithm should decide the computer's move based on the following possibilities:
+
+If the value of the count_rock variable is greater than the values of the count_paper and count_scissors variables, then the computer's move should be ROCK.
+
+If the value of the count_paper variable is greater than the values of thecount_rock and count_scissors variables, then the computer's move should be PAPER.
+
+If the value of the count_scissors variable is greater than the values of the count_rock and count_paper variables, then the computer's move should be SCISSORS.
+
+In all other cases, the computer should play ROCK, PAPER and SCISSORS randomly.
+
+
+
+Gameplay
+In this game, you should maintain the scores for both - the player and the computer. The game should continue till either the player or the computer has reached a score of 10 points. At every move, the output should consist of the following:
+
+The player move and the computer move.
+
+The player score and the computer score.
