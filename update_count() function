@@ -1,0 +1,12 @@
+Create The update_counts() Function
+Now create a function and name it update_counts(). It should take user_input variable as input and update the count variables based on the following logic.
+
+If the player plays ROCK (or user_input == 0), then increase the value of count_rock variable.
+
+Else if the player plays PAPER (or user_input == 1), then increase the value of count_paper variable.
+
+Else if the player plays SCISSORS (or user_input == 2), then increase the value of count_scissors variable.
+
+The update_counts() function should not return anything. In other words, it should not contain the return statement. 
+It should only perform the actions prescribed above. Make sure that you add the global keyword before the count_rock,
+count_paper and count_scissors variables before incrementing their values. Without it you will face an error while running the game.
