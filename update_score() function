@@ -1,0 +1,44 @@
+The update_scores() Function
+Create a function and name it update_scores(). It should take the user_input variable as input and update the scores of the computer and a player. 
+For every player input, there are 3 possible responses from the computer. In total, there are 9 possible situations.
+
+Player plays ROCK, computer plays ROCK, resulting in a tie.
+
+Player plays ROCK, computer plays PAPER, the computer wins.
+
+Player plays ROCK, computer plays SCISSORS, the player wins.
+
+Player plays PAPER, computer plays PAPER, resulting in a tie.
+
+Player plays PAPER, computer plays ROCK, the player wins.
+
+Player plays PAPER, computer plays SCISSORS, the computer wins.
+
+Player plays SCISSORS, computer plays SCISSORS, resulting in a tie.
+
+Player plays SCISSORS, computer plays ROCK, the computer wins.
+
+Player plays SCISSORS, computer plays PAPER, the player wins.
+
+This function needs to cover all the 9 possible situations to update the scores. To correctly create this function, do the following tasks:
+
+Write the global keyword before the player_score and comp_score variables.
+
+Create a variable called pred and store the value returned by the predict() function.
+
+Write an if statement to cover the first 3 possible situations. 
+The code for this part has been provided to you already as a reference to enable you to write the remaining statements.
+
+Write an elif statement to cover the next 3 possible situations.
+
+Write the else statement to cover the remaining 3 possible situations.
+
+For every possible situation you must print the following:
+
+You played X, computer played Y.
+
+Computer Score:
+
+Your Score:
+
+Here, X is either ROCK, PAPER or SCISSORS and Y is also either ROCK, PAPER or SCISSORS.
