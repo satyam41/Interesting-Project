@@ -11,3 +11,5 @@ Step 1: Create a function (let's say tower_hanoi()) that takes an integer disks 
 Step 2: Use  2n−1  to return the result
 
 Step 3: Call the function and check the result
+
+Step 4: Run the code and enjoy the game...
