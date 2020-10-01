@@ -1,2 +1,4 @@
-# white-hat-jr
-project from whitehat jr
+# WHITEHAT-JR.
+
+FAV. PROJECT FROM WHITEHAT-JR 
+BECAUSE I WANT TO KEEP SAFE....
